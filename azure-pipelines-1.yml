@@ -10,6 +10,6 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: MB-Demo@0
+- task: MB-Checker@0
   inputs:
     samplestring: "Hey!"
